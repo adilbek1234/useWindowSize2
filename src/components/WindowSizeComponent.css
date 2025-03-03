@@ -1,0 +1,40 @@
+.window-size-container {
+  text-align: center;
+  margin-top: 30%;
+  padding: 30px;
+  background: linear-gradient(135deg, #8b5e3c, #5a3e2b);
+  color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  width: 60%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.window-size-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+.window-size-title {
+  font-family: Montserrat Black;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.window-size-text {
+  font-family: Montserrat Black;
+  font-size: 20px;
+  margin: 8px 0;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.window-size-text:hover {
+  color: #ffcc99;
+}
